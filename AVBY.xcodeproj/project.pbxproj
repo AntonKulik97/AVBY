@@ -13,6 +13,15 @@
 		3A6B768C2B222A36009B7CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6B768A2B222A36009B7CE7 /* Main.storyboard */; };
 		3A6B768E2B222A38009B7CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6B768D2B222A38009B7CE7 /* Assets.xcassets */; };
 		3A6B76912B222A38009B7CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6B768F2B222A38009B7CE7 /* LaunchScreen.storyboard */; };
+		3A6B769B2B264733009B7CE7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B769A2B264733009B7CE7 /* MainViewController.swift */; };
+		3A6B769D2B264799009B7CE7 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B769C2B264799009B7CE7 /* FavoriteViewController.swift */; };
+		3A6B769F2B2647FC009B7CE7 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B769E2B2647FC009B7CE7 /* AddViewController.swift */; };
+		3A6B76A12B26582E009B7CE7 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B76A02B26582E009B7CE7 /* DialogViewController.swift */; };
+		3A6B76A32B265875009B7CE7 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B76A22B265875009B7CE7 /* OtherViewController.swift */; };
+		3A6B76A72B266635009B7CE7 /* ExtensionMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B76A62B266635009B7CE7 /* ExtensionMainVC.swift */; };
+		3A6B76AA2B26670C009B7CE7 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B76A92B26670C009B7CE7 /* CarModel.swift */; };
+		3A6B76AE2B266B38009B7CE7 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B76AC2B266B38009B7CE7 /* CarTableViewCell.swift */; };
+		3A6B76AF2B266B38009B7CE7 /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A6B76AD2B266B38009B7CE7 /* CarTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		3A6B768D2B222A38009B7CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6B76902B222A38009B7CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6B76922B222A38009B7CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6B769A2B264733009B7CE7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A6B769C2B264799009B7CE7 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		3A6B769E2B2647FC009B7CE7 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3A6B76A02B26582E009B7CE7 /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		3A6B76A22B265875009B7CE7 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		3A6B76A62B266635009B7CE7 /* ExtensionMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMainVC.swift; sourceTree = "<group>"; };
+		3A6B76A92B26670C009B7CE7 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		3A6B76AC2B266B38009B7CE7 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		3A6B76AD2B266B38009B7CE7 /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,54 @@
 			children = (
 				3A6B76842B222A36009B7CE7 /* AppDelegate.swift */,
 				3A6B76862B222A36009B7CE7 /* SceneDelegate.swift */,
-				3A6B76882B222A36009B7CE7 /* ViewController.swift */,
+				3A6B76A42B2659E6009B7CE7 /* ViewControllers */,
+				3A6B76A82B2666F8009B7CE7 /* Models */,
+				3A6B76AB2B266B12009B7CE7 /* Cells */,
+				3A6B76A52B266606009B7CE7 /* Extensions */,
 				3A6B768A2B222A36009B7CE7 /* Main.storyboard */,
 				3A6B768D2B222A38009B7CE7 /* Assets.xcassets */,
 				3A6B768F2B222A38009B7CE7 /* LaunchScreen.storyboard */,
 				3A6B76922B222A38009B7CE7 /* Info.plist */,
+				3A6B76882B222A36009B7CE7 /* ViewController.swift */,
 			);
 			path = AVBY;
+			sourceTree = "<group>";
+		};
+		3A6B76A42B2659E6009B7CE7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B769A2B264733009B7CE7 /* MainViewController.swift */,
+				3A6B769C2B264799009B7CE7 /* FavoriteViewController.swift */,
+				3A6B769E2B2647FC009B7CE7 /* AddViewController.swift */,
+				3A6B76A02B26582E009B7CE7 /* DialogViewController.swift */,
+				3A6B76A22B265875009B7CE7 /* OtherViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3A6B76A52B266606009B7CE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B76A62B266635009B7CE7 /* ExtensionMainVC.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A6B76A82B2666F8009B7CE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B76A92B26670C009B7CE7 /* CarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A6B76AB2B266B12009B7CE7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B76AC2B266B38009B7CE7 /* CarTableViewCell.swift */,
+				3A6B76AD2B266B38009B7CE7 /* CarTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +186,7 @@
 			files = (
 				3A6B76912B222A38009B7CE7 /* LaunchScreen.storyboard in Resources */,
 				3A6B768E2B222A38009B7CE7 /* Assets.xcassets in Resources */,
+				3A6B76AF2B266B38009B7CE7 /* CarTableViewCell.xib in Resources */,
 				3A6B768C2B222A36009B7CE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +200,15 @@
 			files = (
 				3A6B76892B222A36009B7CE7 /* ViewController.swift in Sources */,
 				3A6B76852B222A36009B7CE7 /* AppDelegate.swift in Sources */,
+				3A6B76A72B266635009B7CE7 /* ExtensionMainVC.swift in Sources */,
+				3A6B769F2B2647FC009B7CE7 /* AddViewController.swift in Sources */,
 				3A6B76872B222A36009B7CE7 /* SceneDelegate.swift in Sources */,
+				3A6B769D2B264799009B7CE7 /* FavoriteViewController.swift in Sources */,
+				3A6B76AA2B26670C009B7CE7 /* CarModel.swift in Sources */,
+				3A6B76A32B265875009B7CE7 /* OtherViewController.swift in Sources */,
+				3A6B769B2B264733009B7CE7 /* MainViewController.swift in Sources */,
+				3A6B76AE2B266B38009B7CE7 /* CarTableViewCell.swift in Sources */,
+				3A6B76A12B26582E009B7CE7 /* DialogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
